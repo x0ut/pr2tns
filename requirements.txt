@@ -1,4 +1,3 @@
 discord.py==2.3.2
 Flask==3.0.3
-audioop
 gunicorn

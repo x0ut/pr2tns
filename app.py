@@ -335,7 +335,7 @@ async def buy(ctx, *, product_name: str):
     price = PRODUCTS.get(matched)
     await ctx.send(
         f"🔔 {ctx.author.mention} لشراء **{matched}**، حول `{price}` كريدت لـ <@{CREDIT_RECEIVER_ID}>.\n"
-        f"📌 مثال: `c <@{CREDIT_RECEIVER_ID}> {price}`\n"
+        f"📌 مثال: `C <@{CREDIT_RECEIVER_ID}> {price}`\n"
         f"⌛ بنتظر تحويلك 60 ثانية..."
     )
 
